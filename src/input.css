@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #0064FC;
+    --color-secondary: #F9FAFC;
+    --color-primary-text: #4F5665;
+    --color-heading-text: #0B132A;
+}
+
+
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    content: " " !important;
+}

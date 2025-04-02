@@ -1,0 +1,362 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./input.css" rel="stylesheet">
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-secondary/50 backdrop-blur-md fixed  left-0 top-0 z-50 w-full">
+        <div class="flex items-center justify-between mx-14 md:mx-24 sm:mx-20 ">
+            <!-- Logo -->
+            <div>
+                <img src="./image/logo.png" alt="" class="w-16">
+            </div>
+            <!-- nav -->
+            <ul class="md:flex items-center justify-center gap-x-13 capitalize hidden">
+                
+                <li>
+                    <a class="hover:text-primary hover:underline transition-all duration-300 " href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="hover:text-primary hover:underline transition-all duration-300 " href="#how">How it works</a>
+                </li>
+                <li>
+                    <a class="hover:text-primary hover:underline transition-all duration-300 " href="#doctors">Doctors</a>
+                </li>
+                <li>
+                    <a class="hover:text-primary hover:underline transition-all duration-300 " href="#reviews">Reviews</a>
+                </li>
+            </ul>
+            <!-- Btn -->
+            <div>
+                <button class="bg-primary text-white px-6 py-3 rounded-lg capitalize cursor-pointer hover:bg-blue-600">book meeting</button>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="flex items-centern flex-col-reverse mt-20 xl:flex-row m-14 md:m-24 sm:m-20">
+        <!-- Left Content -->
+        <div class="flex flex-col w-full xl:w-1/2 space-y-10 sm:space-y-13">
+            <span class="bg-primary/15 min-w-58 max-w-60 text-primary uppercase px-3 py-0.5 rounded-full md:mt-15 text-sm">we take care of your heath</span>
+            <h1 class="text-3xl md:text-5xl sm:text-4xl">Consult your doctor from home</h1>
+            <p class="text-primary-text text-sm sm:text-xl w-full">Choose the best online therapy services, begin your free assessment and speak to a licensed therapist. Help is at your fingertips.</p>
+            <div class="flex flex-col sm:flex-row">
+                <button class="bg-primary text-white px-6 py-3 rounded-lg capitalize cursor-pointer hover:bg-blue-600">book meeting</button>
+                <a class="bg-transparent text-center text-primary px-6 py-3 rounded-lg capitalize cursor-pointer hover:underline" href="#">book meeting <i class=" ri-arrow-right-up-line text-lg text-primary ml-1"></i> </a>
+            </div>
+            <div class="flex gap-x-2 items-center text-center ">
+                <h1 class="text-4xl leading-tight">12<span class="text-primary font-bold ">+</span></h1>
+                <p class="mt-2">Years helping patients online</p>
+            </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="flex items-center justify-center xl:w-1/2 mb-10 md:mb-0">
+            <img class="rounded-2xl md:mt-15" src="./image/hero.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="mt-30  m-14 md:m-24 sm:m-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-10">
+            <!-- 1st -->
+            <div class="flex justify-between items-center bg-secondary py-5 px-5 rounded-xl">
+                <div class="space-y-4">
+                    <h1 class="text-3xl ">Dermatology</h1>
+                    <p class="text-primary-text text-sm w-11/12">Our dermatology department provides expert care for skin, hair, and nail conditions. We offer treatments for acne, eczema, psoriasis, and cosmetic procedures like laser therapy and skin rejuvenation.</p>
+                </div>
+                <div>
+                    <div class="flex items-center justify-center border-2 border-primary w-16 h-16 rounded-full hover:bg-primary transition-all duration-300">
+                        <a href="#" class="w-full h-full"><i class="text-3xl ri-arrow-right-up-line text-primary hover:text-white transition-all duration-300 w-full h-full flex items-center justify-center"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd -->
+            <div class="flex justify-between items-center bg-secondary py-5 px-5 rounded-xl">
+                <div class="space-y-4">
+                    <h1 class="text-3xl ">Psychology</h1>
+                    <p class="text-primary-text text-sm w-11/12">
+                        Psychology is the study of the human mind and behavior. It helps us 
+                        understand emotions, thoughts, and actions. Our hospital provides psy
+                        chological counseling and therapy to support mental well-being.</p>
+                </div>
+                <div>
+                    <div class="flex items-center justify-center border-2 border-primary w-16 h-16 rounded-full hover:bg-primary transition-all duration-300">
+                        <a href="#" class="w-full h-full"><i class="text-3xl ri-arrow-right-up-line text-primary hover:text-white transition-all duration-300 w-full h-full flex items-center justify-center"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3th -->
+            <div class="flex justify-between items-center bg-secondary py-5 px-5 rounded-xl">
+                <div class="space-y-4">
+                    <h1 class="text-3xl ">Psychiatry</h1>
+                    <p class="text-primary-text text-sm w-11/12">Psychiatry is a medical field that focuses on diagnosing and treating mental health disorders. Our hospital offers psychiatric evaluations, therapy, and medication management to support mental well-being.</p>
+                </div>
+                <div>
+                    <div class="flex items-center justify-center border-2 border-primary w-16 h-16 rounded-full hover:bg-primary transition-all duration-300">
+                        <a href="#" class="w-full h-full"><i class="text-3xl ri-arrow-right-up-line text-primary hover:text-white transition-all duration-300 w-full h-full flex items-center justify-center"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 4th -->
+            <div class="flex justify-between items-center bg-secondary py-5 px-5 rounded-xl">
+                <div class="space-y-4">
+                    <h1 class="text-3xl ">Gynecology</h1>
+                    <p class="text-primary-text text-sm w-11/12">Gynecology is the medical field that focuses on women's reproductive health. Our hospital provides comprehensive care, including screenings, treatments, and specialized procedures for women's well-being.</p>
+                </div>
+                <div>
+                    <div class="flex items-center justify-center border-2 border-primary w-16 h-16 rounded-full hover:bg-primary transition-all duration-300">
+                        <a href="#" class="w-full h-full"><i class="text-3xl ri-arrow-right-up-line text-primary hover:text-white transition-all duration-300 w-full h-full flex items-center justify-center"></i> </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- how it works Section -->
+    <section id="how" class="flex items-centern flex-col mt-20 xl:flex-row m-14 md:m-24 sm:m-20 gap-x-5">
+        <!-- Left Content -->
+        <div class="flex items-center justify-center w-full xl:w-1/2 mb-10 md:mb-0">
+            <img class="rounded-2xl md:mt-15" src="./image/about.jpg" alt="">
+        </div>
+        <!-- Right Content -->
+        <div class="flex justify-center flex-col space-y-10 w-full xl:w-1/2 mt-12" >
+            <h1 class="text-4xl xl:text-5xl ">Consultation with our professional doctors</h1>
+            <p class="text-primary-text text-xs sm:text-xl w-full">
+                Our doctors bring years of experience and specialized knowledge to the table, ensuring you receive the highest quality of care.
+                <br><br>
+                we understand that every individual is unique.
+                <br><br>
+                Our consultations are tailored to your specific needs, taking into account your medical history, lifestyle, and preferences.
+            </p>
+            <div class="flex flex-col sm:flex-row">
+                <button class="bg-primary text-white px-6 py-3 rounded-lg capitalize cursor-pointer hover:bg-blue-600">book meeting</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- reviews Section -->
+    <section id="reviews" class="bg-secondary">
+        <div class="grid grid-cols-1 mt-20 lg:grid-cols-2 m-14 md:m-24 sm:m-20 gap-x-5 pb-10">
+
+            <!-- Left -->
+            <div class="flex flex-col space-y-10 sm:space-y-5 w-full mt-14">
+                <span class="bg-primary/15 min-w-1 w-auto max-w-28  text-primary uppercase px-3 py-0.5 rounded-full md:mt-15 text-sm">experience</span>
+                <h1 class="text-3xl md:text-5xl sm:text-4xl lg:w-8/12 max-w-full">What our patients say about us</h1>
+                <p class="text-primary-text text-sm sm:text-xl lg:w-8/12 max-w-full">Our dedicated team is committed to providing personalized care.</p>
+            </div>
+
+
+            <!-- right -->
+            <!-- Swiper -->
+            <div class="flex items-center justify-center mr-0 w-full space-y-10 sm:space-y-5 mt-14">
+                <div class="swiper mySwiper !h-full !flex !items-center !justify-center  !w-full">
+                    
+                    <div class="swiper-wrapper !px-16  !gap-6">
+                        <!-- Slides -->
+                        <div class="swiper-slide flex flex-col items-center justify-center  bg-white shadow-lg rounded-lg  !px-20 p-6">
+                            <p class="text-xl xl:text-2xl text-center text-gray-800">
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptas, vel recusandae inventore vitae hic!"
+                            </p>
+                            <div class="w-full my-3 h-0.5 bg-gray-300 rounded-2xl"></div>
+                            <div class="flex flex-col sm:flex-row space-y-4 w-full items-center space-x-4">
+                                <img src="./image/user.jpg" alt="user" class="w-12 rounded-full">
+                                <div class="flex flex-col items-center justify-center ">
+                                    <span class="font-bold text-gray-900">Ali Saad</span>
+                                    <div>
+                                        <i class="ri-star-fill text-yellow-500"></i>
+                                        <i class="ri-star-fill text-yellow-500"></i>
+                                        <i class="ri-star-fill text-yellow-500"></i>
+                                        <i class="ri-star-half-line text-yellow-500"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center justify-center bg-white shadow-lg rounded-lg  !px-20 p-6 !h-auto">
+                            <p class="text-xl xl:text-2xl text-center text-gray-800">
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptas, vel recusandae inventore vitae hic!"
+                            </p>
+                            <div class="w-full my-3 h-0.5 bg-gray-300 rounded-2xl"></div>
+                            <div class="flex flex-col sm:flex-row space-y-4 w-full items-center space-x-4">
+                                <img src="./image/user1.jpg" alt="user" class="w-12 h-12 rounded-full">
+                                <div class="flex flex-col items-center justify-center ">
+                                    <span class="font-bold text-gray-900">Muslim Hashim</span>
+                                    <div>
+                                        <i class="ri-star-fill text-yellow-500"></i>
+                                        <i class="ri-star-fill text-yellow-500"></i>
+                                        <i class="ri-star-fill text-yellow-500"></i>
+                                        <i class="ri-star-fill text-yellow-500"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+                    <div class="swiper-button-prev !absolute !w-auto !flex !items-center !justify-center">
+                        <i class="ri-arrow-left-line !w-8 !h-8 rounded-fu bg-transparent text-primary border-2 border-primary rounded-full text-xl ml-3 !flex !items-center !justify-center
+                        hover:bg-primary hover:text-white transition duration-300"></i>
+                    </div>
+                    <div class="swiper-button-next !absolute !w-auto !flex !items-center !justify-center !mr-2">
+                        <i class="ri-arrow-right-line !w-8 !h-8 rounded-fu bg-transparent text-primary border-2 border-primary rounded-full text-xl ml-3 !flex !items-center !justify-center
+                        hover:bg-primary hover:text-white transition duration-300"></i>
+                    </div>
+                
+                </div>
+            </div>
+
+            </div>
+
+
+    </section>
+
+    <!-- Doctors section -->
+    <section id="doctors" class="flex flex-col items-center justify-center  m-14 md:m-24 sm:m-20 ">
+        <div class="text-4xl text-black mb-5">
+            Our Doctors
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full bg-white gap-x-10 gap-y-58 md:gap-y-0">
+            <!-- First D -->
+            <div class="h-100 ">
+                <div class="h-2/3 overflow-hidden relative rounded-2xl ">
+                    <img src="./image/hero.jpg" alt="doctor image" class="w-full h-full rounded-2xl object-cover transition-transform duration-300 ease-in-out transform hover:scale-110">
+                </div>
+                <div class="flex flex-col space-y-2 w-full mb-4">
+                    <span class=" min-w-1 w-auto max-w-28  text-primary uppercase rounded-full mt-5 text-sm">Doctor...</span>
+                    <h1 class="text-2xl">Sloter Nichrer</h1>
+                    <p class="text-primary-text text-sm max-w-full">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, ut..</p>
+                </div>
+                <button class="bg-transparent border-1 border-primary text-center text-primary px-7 py-2 rounded-lg capitalize cursor-pointer hover:bg-primary hover:text-white transition duration-300" href="#">see profile</button>
+
+            </div>
+
+            <!-- Second D -->
+            <div class="h-100">
+                <div class="h-2/3 overflow-hidden relative rounded-2xl">
+                    <img src="./image/user1.jpg" alt="doctor image" class="w-full h-full rounded-2xl object-cover transition-transform duration-300 ease-in-out transform hover:scale-110">
+                </div>
+                <div class="flex flex-col space-y-2 w-full mb-4">
+                    <span class=" min-w-1 w-auto max-w-28  text-primary uppercase rounded-full mt-5 text-sm">Doctor...</span>
+                    <h1 class="text-2xl">Sloter Nichrer</h1>
+                    <p class="text-primary-text text-sm max-w-full">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, ut..</p>
+                </div>
+                <button class="bg-transparent border-1 border-primary text-center text-primary px-7 py-2 rounded-lg capitalize cursor-pointer hover:bg-primary hover:text-white transition duration-300" href="#">see profile</button>
+
+            </div>
+
+            <!-- third D -->
+            <div class="h-100">
+                <div class="h-2/3 overflow-hidden relative rounded-2xl">
+                    <img src="./image/user.jpg" alt="doctor image" class="w-full h-full rounded-2xl object-cover transition-transform duration-300 ease-in-out transform hover:scale-110">
+                </div>
+                <div class="flex flex-col space-y-2 w-full mb-4">
+                    <span class=" min-w-1 w-auto max-w-28  text-primary uppercase rounded-full mt-5 text-sm">Doctor...</span>
+                    <h1 class="text-2xl">Sloter Nichrer</h1>
+                    <p class="text-primary-text text-sm max-w-full">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, ut..</p>
+                </div>
+                <button class="bg-transparent border-1 border-primary text-center text-primary px-7 py-2 rounded-lg capitalize cursor-pointer hover:bg-primary hover:text-white transition duration-300" href="#">see profile</button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sub Section -->
+    <section class="bg-secondary w-full">
+        <div class="flex flex-col items-center justify-center  m-14 md:m-24 sm:m-20 space-y-10 py-20">
+            <h1 class="text-3xl md:text-5xl text-center leading-relaxed">Consult your health with a <br> professional</h1>
+            <button class="bg-primary text-white px-7 py-2 rounded-lg capitalize cursor-pointer hover:bg-blue-600">book meeting</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="flex flex-col justify-between md:flex-row  m-14 md:m-24 sm:m-20 space-y-10 bg-white !mb-0 pb-8 w-screen">
+        <div class="space-y-3">
+            <div class="flex items-center ">
+                <img src="./image/logo.png" alt="" class="w-14">
+                <div class="flex flex-col h-full w-auto">
+                    <span class="tracking-widest ">Online Consultations</span>
+                    <span class="text-sm">&copy; MedOn All right reserved</span>
+                </div>
+            </div>
+            <div class="flex gap-x-5">
+                <a href="#"><i class="ri-facebook-circle-fill text-2xl  text-primary"></i></a>
+                <a href="#"><i class="ri-instagram-line text-2xl  text-primary"></i></a>
+                <a href="#"><i class="ri-linkedin-box-fill text-2xl  text-primary"></i></a>
+                <a href="#"><i class="ri-twitter-x-fill text-2xl  text-primary"></i></a>
+            </div>
+        </div>
+        <div class="md:w-8/12 w-full">
+            <div class="grid sm:grid-cols-3 grid-cols-2 gap-y-10 sm:gap-y-0 ">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#doctors">Doctors</a>
+                    </li>
+                    <li>
+                        <a href="#how">How it works</a>
+                    </li>
+                    <li>
+                        <a href="#doctors">Doctors</a>
+                    </li>
+                </ul>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#services">Dermatology</a>
+                    </li>
+                    <li>
+                        <a href="#services">Psychiatry</a>
+                    </li>
+                    <li>
+                        <a href="#services">Gynecology</a>
+                    </li>
+                </ul>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#services">Psychology</a>
+                    </li>
+                    <li>
+                        <a href="#services">Pediatrician</a>
+                    </li>
+                    <li>
+                        <a href="#services">Cardiology</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true, // لجعل السلايدر يدور بلا نهاية
+            slidesPerView: 1, // عرض تعليق واحد فقط
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
